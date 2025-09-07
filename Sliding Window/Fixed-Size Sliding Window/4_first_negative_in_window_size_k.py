@@ -1,3 +1,4 @@
+# Question : https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
 # brute force approach 
 """ 
 class Solution:
@@ -130,5 +131,6 @@ def sliding_window(arr, k):
 ```
 
 Remember: The core idea is to **track indices, not values**, and **maintain relevance** by removing outdated indices!
+
 
  """

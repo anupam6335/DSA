@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/permutation-in-string/description/
 
-class Solution:
+""" class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         len1, len2 = len(s1), len(s2)
 
@@ -43,6 +43,39 @@ class Solution:
         
         return False
 
-
 __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
+ """
 
+
+
+# using Counter Function 
+
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+        len1 = len(s1)
+        len2 = len(s2)
+
+        if len1 > len2:
+            return False
+        
+        count_s1 = Counter(s1)
+        window = Counter(s2[:len1])
+
+        if window == count_s1:
+            return True
+        
+        for i in range(len1, len2):
+            # add new one
+            window[s2[i]] += 1
+
+            # remove first one
+            out_char = s2[i-len1]
+            window[out_char] -= 1
+
+            if window[out_char] == 0:
+                del window[out_char]
+            
+            if window == count_s1:
+                return True
+        return False
+        

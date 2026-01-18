@@ -1,7 +1,7 @@
 # Exhaustive List of Two-Pointer Technique Applications
 
 ## **I. Fundamental Array Operations**
-1. [**Pair Sum Problems**](https://github.com/anupam6335/DSA/blob/main/Two%20Pointer/pair_sum_problems_two_pointer_technique.md)
+1. <a href="https://github.com/anupam6335/DSA/blob/main/Two%20Pointer/pair_sum_problems_two_pointer_technique.md" target="_blank"><strong>Pair Sum Problems</strong></a>
    - Two Sum in sorted array
    - Three Sum (nested two-pointer)
    - Four Sum (double nested two-pointer)

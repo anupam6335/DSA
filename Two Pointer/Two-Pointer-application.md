@@ -7,13 +7,13 @@
    - Four Sum (double nested two-pointer)
    - K-Sum problems (generalized)
 
-2. **Partitioning & Segregation**
+2. <a href="https://github.com/anupam6335/DSA/blob/main/Two%20Pointer/Partitioning_and_Segregation_Problems_Using_Two_Pointer_Technique.md" target="_blank"><strong>Partitioning & Segregation</strong></a>
    - Dutch National Flag problem (sort colors: 0,1,2)
    - Move zeros to end while preserving order
    - Separate even and odd numbers
    - Partition array around pivot value
 
-3. **In-place Transformations**
+4. **In-place Transformations**
    - Reverse array/string
    - Rotate array using reversal algorithm
    - Reverse words in a string

@@ -13,7 +13,7 @@
    - Separate even and odd numbers
    - Partition array around pivot value
 
-4. **In-place Transformations**
+4. **[In-place Transformations](https://github.com/anupam6335/DSA/blob/main/Two%20Pointer/In-place_Transformations_applicaiton.md)** 
    - Reverse array/string
    - Rotate array using reversal algorithm
    - Reverse words in a string

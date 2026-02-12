@@ -21,7 +21,7 @@
    - Reverse only letters (preserving non-letters)
 
 ## **II. String Processing**
-4. **Palindrome Validation & Manipulation**
+4. [**Palindrome Validation & Manipulation**](https://github.com/anupam6335/DSA/blob/main/Two%20Pointer/palindrome-validation-and-manipulation.md)
    - Check if string is palindrome
    - Check if substring is palindrome
    - Longest palindromic substring (center expansion)
